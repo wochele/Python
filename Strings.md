@@ -35,3 +35,17 @@ A multiline string in Python begins and ends with either three single quotes or 
 
 - The isupper() and islower() methods will return a Boolean True value if the string has at least one letter and all the letters are uppercase or lowercase, respectively. Otherwise, the method returns False
 
+#### Stripping whitespace
+
+- `rstrip()` - Strip whitespace from the right side of a string
+- `lstrip()` - Strip whitespace from the left side of a string
+- `strip()` - Strip whitespace from both sides of the string
+
+# Concatenating strings
+
+Use '+' to combine strings - `print("Hello, " + full_name.title() + "!")`
+
+# Special characters
+
+- `\t` - tab
+- `\n` - new line
