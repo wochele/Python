@@ -33,7 +33,8 @@ A multiline string in Python begins and ends with either three single quotes or 
 'hello world!'
 ```
 
-- The isupper() and islower() methods will return a Boolean True value if the string has at least one letter and all the letters are uppercase or lowercase, respectively. Otherwise, the method returns False
+- `The isupper()` and `islower()` methods will return a Boolean True value if the string has at least one letter and all the letters are uppercase or lowercase, respectively. Otherwise, the method returns False
+- The `title()` method will capitalize the words in the string
 
 #### Stripping whitespace
 
