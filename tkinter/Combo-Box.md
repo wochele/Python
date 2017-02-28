@@ -15,3 +15,9 @@ If we want to restrict the user to only be able to select the values we have pro
 numberChosen = ttk.Combobox(win, width=12, textvariable=number, state='readonly')
 ```
 
+### Get value from Combobox
+
+```
+numberChosen.get()
+```
+
