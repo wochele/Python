@@ -7,31 +7,31 @@ Install python version 3.5.3 (latest that works with Django)
 ### Install Virtualenv
 
 ```
-pip install virtualenv
+> pip install virtualenv
 ```
 
 ### Create virtual env
 
 ```
-virtualenv <sitename>
+> virtualenv <sitename>
 ```
 
 ### Activate the environment
 
 ```
-env_mysite\scripts\activate
+> env_mysite\scripts\activate
 ```
 
 ### Install django
 
 ```
-pip install django
+> pip install django
 
 # Verify install
-django-admin --version
+> django-admin --version
 
 # If not working on Windows 10, perform the following updates on the main install
-python -m pip install -U pip setuptools virtualenv
+> python -m pip install -U pip setuptools virtualenv
 ```
 
 ### Create a project
@@ -39,14 +39,19 @@ python -m pip install -U pip setuptools virtualenv
 change to folder where the project will be
 
 ```
-django-admin startproject mysite
+> django-admin startproject mysite
 ```
 
 ### Create database table
 
 ```
-python manage.py migrate 
+> python manage.py migrate 
 ```
 
+### To run the local web server
+
+```
+> python manage.py runserver
+```
 
 
