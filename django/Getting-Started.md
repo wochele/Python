@@ -29,6 +29,9 @@ pip install django
 
 # Verify install
 django-admin --version
+
+# If not working on Windows 10, perform the following updates on the main install
+python -m pip install -U pip setuptools virtualenv
 ```
 
 ### Create a project
