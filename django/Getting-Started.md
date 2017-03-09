@@ -4,6 +4,12 @@
 
 Install python version 3.5.3 (latest that works with Django)
 
+### Update PIP
+
+```
+> python -m pip install -U pip
+```
+
 ### Install Virtualenv
 
 ```
