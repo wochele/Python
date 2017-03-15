@@ -8,6 +8,7 @@
 
 ```
 myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
+print(myCat['size'])
 ```
 
 There are three dictionary methods that will return list-like values of the dictionary’s keys, values, or both keys and values: keys(), values(), and items().
