@@ -2,7 +2,7 @@
 
 ## Setting up the admin site
 
-'''
+'''python
 # Create superuser
 > python manage.py createsuperuser
 
