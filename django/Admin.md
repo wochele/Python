@@ -2,7 +2,7 @@
 
 ## Setting up the admin site
 
-'''python
+```python
 # Create superuser
 > python manage.py createsuperuser
 
@@ -10,7 +10,7 @@
 from <AppName>.models import <ModelName>
 
 admin.site.register(<ModelName>)
-'''
+```
 
 
 
